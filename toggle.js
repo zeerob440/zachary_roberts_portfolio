@@ -6,7 +6,7 @@ const toggle =document.getElementById("styleToggle");
 
 
 toggle.addEventListener("click", () => { 
-    const current = localStorage.getItem("skin");
+    const current = localStorage.getItem("modern");
 
     if (current === "retro") {
         localStorage.setItem("skin", "modern");
