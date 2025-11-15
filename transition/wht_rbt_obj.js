@@ -6,7 +6,7 @@ let terminal = document.getElementById("terminal")
 let greet = "...ACCESSING THE 90's...." +"<br>"+"BUT...";
 
 terminal.innerHTML += greet + "<br>".repeat(5);
-//screen cascade must be cinimatic for desired effect.
+//screen cascade must be cinimatic for desired effect.//
 let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
 let iteration = 0;
 let sentinel = 70;
