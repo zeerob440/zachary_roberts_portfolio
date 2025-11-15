@@ -1,3 +1,4 @@
+//wht_rbt_obj.js is a cinimatic transition from modern.ccs to retro.ccs. it serves as a landing page to facilitate the transition.//
 //Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025//
 //"It's the kicker. wht_rbt.obj, whatever it is, it did it all." -Ray Arnold, Jurassic Park//
 
