@@ -1,18 +1,20 @@
 //Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025//
 //"It's the kicker. wht_rbt.obj, whatever it is, it did it all." -Ray Arnold, Jurassic Park//
 
-
-
-let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
-let iteration = 0;
-let max_iteration = 10;
-
 let terminal = document.getElementById("terminal")
 
-let sentinel = setInterval(() => {
+let greet = "...ACCESSING THE 90's...." +"<br>"+"BUT...";
+
+terminal.innerHTML += greet + "<br>".repeat(5);
+//screen cascade must be cinimatic for desired effect, use 
+let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
+let iteration = 0;
+let sentinel = 70;
+
+let timing = setInterval(() => {
     terminal.innerHTML += ydstmw + "<br>";
 iteration++;
-if (iteration >= max_iteration) {
-    clearInterval(sentinel);
+if (iteration >= sentinel) {
+    clearInterval(timing);
     }
 }, 30);
