@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg,#146C63,#535857);
+    background: linear-gradient(45deg, #0F766E,#746D6C );
     color: #F5F9FF;
     font-family: Arial, sans-serif;
     }
@@ -8,8 +8,15 @@ nav {
 }
 nav a {
     text-align: center;
-    color: #F5F9FF;
+    font-size: 1.4em;
+    color: #E4BB90;
+    font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
     text-align: text;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: #F5DEB3;
+    text-decoration: underline #F5DEB3;
 }
