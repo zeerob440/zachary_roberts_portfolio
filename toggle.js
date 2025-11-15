@@ -6,13 +6,13 @@ const toggle =document.getElementById("styleToggle");
 
 
 toggle.addEventListener("click", () => { 
-    const current = localStorage.getItem("skin");
+    const current = localStorage.getItem("skin") || "modern";
 
     if (current === "retro") {
         localStorage.setItem("skin", "modern");
         window.location.href="index.html";
     } else {
-        localStorage.setItem("skin", "retro")
+        localStorage.setItem("skin", "retro");
         window.location.href ="transition/index.html";
     }
 });

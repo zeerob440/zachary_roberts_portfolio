@@ -16,6 +16,6 @@
     if (skin === "retro") {
         link.href = prefix + "retro.css";
     } else {
-        link.herf = prefix + "modern.css";
+        link.href = prefix + "modern.css";
     }
 })();
