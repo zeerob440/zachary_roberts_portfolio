@@ -17,7 +17,6 @@ let timing = setInterval(() => {
 iteration++;
 if (iteration >= sentinel) {
     clearInterval(timing);
-    localStorage.setItem("skin","retro");
     window.location.href ="../index.html";
     }
 }, 30);
