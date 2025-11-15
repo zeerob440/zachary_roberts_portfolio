@@ -4,6 +4,15 @@
 
 
 let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
-for (let i = 0; i < 50; i++) {
-    document.write(ydstmw + "<br>");
-}
+let iteration = 0;
+let max_iteration = 10;
+
+let terminal = document.getElementById("terminal")
+
+let sentinel = setInterval(() => {
+    terminal.innerHTML += ydstmw + "<br>";
+iteration++;
+if (iteration >= max_iteration) {
+    clearInterval(sentinel);
+    }
+}, 30);
