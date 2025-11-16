@@ -1,6 +1,6 @@
 //loads styleSkins globally.
 //Proudly engineered by Zachary Roberts 16 NOV 2025.
-//
+//"We do these things because they are hard."
 (function() {
     //detects current skin.
     const skin = localStorage.getItem("skin") || "modern";
