@@ -2,6 +2,7 @@ body {
     background: linear-gradient(45deg, #0F766E,#746D6C );
     color: #F5F9FF;
     font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
     }
 nav {
     text-align: center;
@@ -19,4 +20,19 @@ nav a {
 nav a:hover {
     color: #F5DEB3;
     text-decoration: underline #F5DEB3;
+}
+button {
+    color: #0F766E;
+    background-color: #E4BB90;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    padding:15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;    
+}
+button:hover {
+    background-color: #F5DEB3;
+
 }
