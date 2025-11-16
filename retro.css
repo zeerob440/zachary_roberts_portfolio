@@ -34,6 +34,9 @@ h1 {
     padding-left: 24px;
     background-repeat: no-repeat;
 }
+.fyreUlLi {
+    list-style-image: url("images/fire_seven_seven.gif");
+}
 
 dt {
     font-weight: bold;
