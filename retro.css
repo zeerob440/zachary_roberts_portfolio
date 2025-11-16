@@ -2,3 +2,16 @@ body {
     background: #C0C0C0;
     font-family: "Times New Roman", sans-serif;
 }
+nav {
+    color:chartreuse;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav a:hover {
+    background-color: #FF0099;
+    
+}
+
+
+}
