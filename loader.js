@@ -1,17 +1,19 @@
-//loads skin from localStorage and applies it globally
+//loads "skin" from localStorage and applies it globally
 //Proudly engineered by Zachary Roberts 16 NOV 2025.
 //"We do these things because they are hard."
 (function() {
-    //detects current skin.
+    //detects current "skin" from browser.
     const skin = localStorage.getItem("skin") || "modern";
-    //detects folder depth.
+    //assigns filepath to depth, depth is split into a list delimited by "/" and subtracts (len(list))- 2 (Python).
     const depth = window.location.pathname.split("/").length -2;
-    //builds prefix to path
+    //rebuilds filepath with for loop adds "../" for each iteration.
     let prefix = "";
     for (let i = 0; i <depth; i++) {
         prefix += "../";
     }
-    // find stylesheet lin
+    //gets <link id="skinStlyesheet" element.
+    // is saved skin is 'retro' load retro.ccs by concat prefix + "retro.css".
+    // else concat prefix + "modern.css" load "modern.css".
     const link =document.getElementById("skinStylesheet")
     if (skin === "retro") {
         link.href = prefix + "retro.css";
