@@ -54,3 +54,9 @@ h2 {
     
 }
 
+h3 {
+    background-image: url("images/memphis_retro.png");
+    background-size: cover;
+    background-repeat: none;
+   
+}
