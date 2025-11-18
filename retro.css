@@ -54,9 +54,11 @@ h2 {
     
 }
 
-h3 {
-    background-image: url("images/memphis_retro.png");
-    background-size: 200px auto;
-    background-repeat: none;
-   
+.retro_python {
+    background-image: url("images/python_128.gif"), url("images/memphis_retro.png");
+    background-size: 128px, 128px auto;
+    background-repeat: no-repeat, repeat;
+    background-position: left center, center;
+    height: 128px;
+    
 }
