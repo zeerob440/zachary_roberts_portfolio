@@ -1,4 +1,4 @@
-//loads styleSkins globally.
+//loads skin from localStorage and applies it globally
 //Proudly engineered by Zachary Roberts 16 NOV 2025.
 //"We do these things because they are hard."
 (function() {
@@ -11,7 +11,7 @@
     for (let i = 0; i <depth; i++) {
         prefix += "../";
     }
-    // find stylesheet link
+    // find stylesheet lin
     const link =document.getElementById("skinStylesheet")
     if (skin === "retro") {
         link.href = prefix + "retro.css";
