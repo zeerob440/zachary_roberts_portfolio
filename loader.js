@@ -12,7 +12,7 @@
         prefix += "../";
     }
     //gets <link id="skinStlyesheet" element.
-    // is saved skin is 'retro' load retro.ccs by concat prefix + "retro.css".
+    //if saved skin is 'retro' load retro.ccs by concat prefix + "retro.css".
     // else concat prefix + "modern.css" load "modern.css".
     const link =document.getElementById("skinStylesheet")
     if (skin === "retro") {
