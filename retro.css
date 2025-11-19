@@ -71,3 +71,10 @@ h2 {
     height: 128px;
     
 }
+.retro_cpp {
+    background-image: url("images/cpp_128.gif"), url("images/memphis_retro.png");
+    background-size: 128px, 128px auto;
+    background-repeat: no-repeat, repeat;
+    background-position: left center, center;
+    height: 128px;
+}
