@@ -78,3 +78,10 @@ h2 {
     background-position: left center, center;
     height: 128px;
 }
+.construction_cpp {
+    background-image: url("images/construction_sixty_four.png");
+    padding-left: 72px;
+    line-height: 36px;
+    background-repeat: no-repeat;
+      
+}
