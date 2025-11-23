@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/modern_background.png");
+    background-image: url("../images/modern_background_2.png");
     color: #F5F9FF;
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
@@ -8,7 +8,8 @@ body {
     }
 nav {
     text-align: center;
-    background-color: rgba(10, 17, 40, 0.8);;
+    background-color: rgba(10, 17, 40, 0.8);
+    background-size: cover;
 }
 nav a {
     text-align: center;
@@ -38,4 +39,16 @@ button {
 button:hover {
     background-color: #F5DEB3;
 
+}
+h1 {
+    text-align: center;
+    background-color: rgba(10, 17, 40, 0.8);
+    background-size: cover;
+}
+.modern_about {
+    background-image: url("images/modern_avatar_small_frame.jpg"),  url("images/modern_background.png");
+    background-size: 128px, 128px auto;
+    background-repeat: no-repeat, repeat;
+    background-position: left center, center;
+    height: 128px;
 }
