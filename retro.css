@@ -96,3 +96,10 @@ h2 {
     height: 256px;
     padding-left: 300px;
 }
+.retro_tech_stack {
+    background-image: url("images/flowchart_128.gif"), url("images/memphis_retro.png");
+    background-size: 128px, 128px auto;
+    background-repeat: no-repeat, repeat;
+    background-position: left center, center;
+    height: 128px;
+}
