@@ -1,11 +1,14 @@
 body {
-    background: linear-gradient(45deg, #0F766E,#746D6C );
+    background-image: url("../images/modern_background.png");
     color: #F5F9FF;
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
 nav {
     text-align: center;
+    background-color: rgba(10, 17, 40, 0.8);;
 }
 nav a {
     text-align: center;
