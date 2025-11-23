@@ -46,9 +46,13 @@ h1 {
     background-size: cover;
 }
 .modern_about {
-    background-image: url("images/modern_avatar_small_frame.jpg"),  url("images/modern_background.png");
-    background-size: 128px, 128px auto;
-    background-repeat: no-repeat, repeat;
-    background-position: left center, center;
-    height: 128px;
+    background-image: url("images/modern_avatar_256.jpg"),  url("images/modern_background.png");
+    background-size: 256px, 25%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    height: 256px;
+    length: 256px, cover;
+}
+p {
+    background-color:  rgba(10, 17, 40, 0.8);
 }
