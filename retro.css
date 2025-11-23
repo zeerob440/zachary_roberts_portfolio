@@ -115,4 +115,8 @@ h2 {
     border: 1px solid white;
     padding: 10px;
 }
+.fyre_retro_table {
+    background-image: url("images/fire_thirty_two.gif");
+    background-repeat: no-repeat;
+}
 
