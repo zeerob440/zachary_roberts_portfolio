@@ -44,7 +44,10 @@ dt {
 }
 
 h2 {
-    color: navy;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 3em;
+    
 }
 .new {
     background-image: url("images/new_two.gif");
@@ -84,4 +87,12 @@ h2 {
     line-height: 36px;
     background-repeat: no-repeat;
       
+}
+.retro_about_me {
+    background-image: url("images/retro_avatar_256.png"), url("images/memphis_retro.png");
+    background-size: 256px, 256px auto;
+    background-repeat: no-repeat, repeat;
+    background-position: left center, center;
+    height: 256px;
+    padding-left: 300px;
 }
