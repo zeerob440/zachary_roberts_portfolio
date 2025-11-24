@@ -7,15 +7,15 @@
     //detects current "skin" from browser.
     const skin = localStorage.getItem("skin") || "modern";
    
-    const gitHubLive =window.location.hostname.includes("github.io");
+    const gitHubLive = window.location.hostname.includes("github.io");
     // use absolute path else use relative filepath. 
-    const pathStart =gitHubLive
+    const pathStart = gitHubLive
         ?"/zachary_roberts_portfolio/"
         :"./"
     /*gets <link id="skinStlyesheet" element.
-        if saved skin is 'retro' load retro.ccs by concat prefix + "retro.css".
-        else concat prefix + "modern.css" load "modern.css".*/
-    const link =document.getElementById("skinStylesheet")
+        if saved skin is 'retro' load retro.ccs by concat pathStart + "retro.css".
+        else concat pathStart + "modern.css" load "modern.css".*/
+    const link = document.getElementById("skinStylesheet")
     
     if (skin === "retro") {
         link.href = pathStart + "retro.css";
