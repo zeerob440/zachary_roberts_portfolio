@@ -109,6 +109,7 @@ dl dd {
     color: #E4BB90;
     border-collapse: collapse;
     border: solid;
+    margin: 0 auto;
 } 
 
  .adept_modern_table {
@@ -118,4 +119,10 @@ dl dd {
     width: calc(32px);
     height: 32px;
     background-position: center center;
- }   
+ }  
+.modern_table th,
+.modern_table td {
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+}
+ 
