@@ -103,6 +103,9 @@ dl dd {
     font-weight: bold;
     color:#FFFFFF;
     background-color: rgb(10, 17, 40);
+    line-height: 1.5;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .modern_table {
@@ -126,5 +129,6 @@ dl dd {
 .modern_table td {
     border: 1px solid #FFFFFF;
     padding: 10px;
+    color:#FFFFFF;
 }
  
