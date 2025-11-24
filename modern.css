@@ -24,7 +24,6 @@ nav a {
 
 nav a:hover {
     color: #FFFFFF;
-    text-decoration: underline #FFFFFF;
 }
 button {
     color: rgba(10, 17, 40, 0.8);
