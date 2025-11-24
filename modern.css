@@ -102,9 +102,14 @@ dl dd {
     color:#FFFFFF;
     background-color: rgb(10, 17, 40);
 }
-table {
-    background-color:rgb(10, 17, 40) ;
-}
+
+.modern_table {
+    width: 80%;
+    background-color: rgb(10, 17, 40);
+    color: #E4BB90;
+    border-collapse: collapse;
+    border: solid;
+} 
 
  .adept_modern_table {
     background-image: url("images/adept_32.png");
