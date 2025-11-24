@@ -109,7 +109,9 @@ dl dd {
     margin: 0 auto;
 }
 dd p {
-    color:#E4BB90
+    color:#E4BB90;
+    font-weight: 100;
+    font-family: "Trebuchet MS", san sans-serif;
 }
 dd a {
     color:#7BAFD4;
