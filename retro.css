@@ -120,7 +120,6 @@ h2 {
     background-repeat: repeat-x;
     background-size: 32px 32px;
     width: calc(32px * 3);
-    height: 32px;
-    
+    height: 32px;  
 }
 
