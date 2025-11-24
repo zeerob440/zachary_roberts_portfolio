@@ -52,7 +52,6 @@ h1 {
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
     height: 256px;
-    length: 256px, cover;
 }
 p {
     background-color:  rgba(10, 17, 40, 0.8);
