@@ -14,7 +14,7 @@ nav {
 nav a {
     text-align: center;
     font-size: 1.4em;
-    color: lightblue;
+    color: #7BAFD4;
     font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
     text-align: text;
@@ -108,11 +108,15 @@ dl dd {
     margin: 0 auto;
 }
 dd a {
-    color:#E4BB90;
+    color:#7BAFD4;
     font-weight: bold;
     font-style: italics;
     font-size: 1em;
     text-decoration: none;
+}
+
+dd a:hover {
+    color:#FFFFFF
 }
 .modern_table {
     width: 80%;
