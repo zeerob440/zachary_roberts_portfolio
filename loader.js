@@ -6,20 +6,20 @@
 (function() {
     //detects current "skin" from browser.
     const skin = localStorage.getItem("skin") || "modern";
-    //assigns filepath to depth, depth is split into a list delimited by "/" and subtracts (len(list))- 2 (Python).
-    const depth = window.location.pathname.split("/").length -2;
-    //rebuilds filepath with for loop adds "../" for each iteration.
-    let prefix = "";
-    for (let i = 0; i <depth; i++) {
-        prefix += "../";
-    }
+   
+    const gitHubLive =window.location.hostname.includes("github.io");
+    // use absolute path else use relative filepath. 
+    const pathStart =gitHubLive
+        ?"/zachary_roberts_portfolio/"
+        :"./"
     /*gets <link id="skinStlyesheet" element.
         if saved skin is 'retro' load retro.ccs by concat prefix + "retro.css".
         else concat prefix + "modern.css" load "modern.css".*/
     const link =document.getElementById("skinStylesheet")
+    
     if (skin === "retro") {
-        link.href = prefix + "retro.css";
+        link.href = pathStart + "retro.css";
     } else {
-        link.href = prefix + "modern.css";
+        link.href = pathStart + "modern.css";
     }
 })();
