@@ -47,7 +47,8 @@ h1 {
     color: #E4BB90;
 }
 .modern_about {
-    background-image: url("images/modern_avatar_256.jpg"),  url("images/modern_background.png");
+    background-image: url("/zachary_roberts_portfolio/images/modern_avatar_256.jpg"),
+    url("/zachary_roberts_portfolio/images/modern_background.png");
     background-size: 256px, 25%;
     background-repeat: no-repeat, no-repeat;
     background-position: center, center;
@@ -135,7 +136,7 @@ dd a:hover {
 } 
 
  .adept_modern_table {
-    background-image: url("images/adept_32.png");
+    background-image: url("/zachary_roberts_portfolio/images/adept_32.png");
     background-repeat: no-repeat;
     background-size: 32px 32px;
     width: calc(32px);
