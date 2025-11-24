@@ -112,6 +112,7 @@ dd a {
     font-style: italic;
     font-size: 1em;
     text-decoration: none;
+    padding-top: 1.5em;
 }
 
 dd a:hover {
