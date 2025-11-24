@@ -100,8 +100,7 @@ dl dt {
     text-align: center;
 }
 dl dd {
-    font-weight: bold;
-    color:#FFFFFF;
+    color:#E4BB90;
     background-color: rgb(10, 17, 40);
     line-height: 1.5;
     max-width: 900px;
@@ -110,7 +109,7 @@ dl dd {
 dd a {
     color:#7BAFD4;
     font-weight: bold;
-    font-style: italics;
+    font-style: italic;
     font-size: 1em;
     text-decoration: none;
 }
