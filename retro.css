@@ -122,4 +122,10 @@ h2 {
     width: calc(32px * 3);
     height: 32px;  
 }
-
+button {
+    color: chartreuse;
+    background-color:#FF006C;
+    font-weight: bold;
+    font-family:"OCR A Extended",sans-serif;
+}
+    
