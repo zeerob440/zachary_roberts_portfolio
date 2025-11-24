@@ -127,6 +127,7 @@ button {
     background-color:orangered;
     font-weight: bold;
     font-family:"OCR A Extended",sans-serif;
+    font-size: 1.3em;
 }
 
 button:hover {
