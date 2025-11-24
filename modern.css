@@ -42,7 +42,7 @@ button:hover {
 }
 h1 {
     text-align: center;
-    background-color: rgba(10, 17, 40, 0.8);
+    background-color: rgba(10, 17, 40,.80);
     background-size: cover;
     color: #E4BB90;
 }
@@ -62,19 +62,42 @@ h2 {
     text-align: center;
     font-family: "Trebuchet MS", sans-serif;
     color: #E4BB90;
+    font-weight: bold;
+    text-shadow: -2px -2px 0 rgb(10, 17, 40),
+         2px -2px 0 rgb(10, 17, 40),
+        -2px  2px 0 rgb(10, 17, 40),
+         2px  2px 0 rgb(10, 17, 40);
 }
 ul {
     color:#FFFFFF;
     font-size: 1em;
-    font-weight: bold;
     background-color: rgba(10, 17, 40, 0.8);;
     text-align: center;
     list-style-type: none;
+    
 }
 h4 {
     text-align: center;
     color:#E4BB90;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 1.2em;
+    text-shadow: -2px -2px 0 rgb(10, 17, 40),
+         2px -2px 0 rgb(10, 17, 40),
+        -2px  2px 0 rgb(10, 17, 40),
+         2px  2px 0 rgb(10, 17, 40);
 
+}
+dl dt {
+    text-shadow: -2px -2px 0 rgb(10, 17, 40),
+         2px -2px 0 rgb(10, 17, 40),
+        -2px  2px 0 rgb(10, 17, 40),
+         2px  2px 0 rgb(10, 17, 40);
+    font-size:1.5em;
+    color:#E4BB90;
+    font-family: "Trebuchet MS", sans-serif;
+}
+dl dd {
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: rgb(10, 17, 40);
 }
