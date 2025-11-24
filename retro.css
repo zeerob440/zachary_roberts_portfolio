@@ -123,9 +123,14 @@ h2 {
     height: 32px;  
 }
 button {
-    color: chartreuse;
-    background-color:#FF006C;
+    color: blueviolet;
+    background-color:white;
     font-weight: bold;
     font-family:"OCR A Extended",sans-serif;
+}
+
+button:hover {
+    color:chartreuse;
+    background-color: #FF006C;
 }
     
