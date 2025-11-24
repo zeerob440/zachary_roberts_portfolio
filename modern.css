@@ -27,7 +27,7 @@ nav a:hover {
 }
 button {
     color: rgba(10, 17, 40, 0.8);
-    background-color:lightblue ;
+    background-color:#7BAFD4 ;
     font-weight: bold;
     display: block;
     margin: 0 auto;
@@ -107,7 +107,13 @@ dl dd {
     max-width: 900px;
     margin: 0 auto;
 }
-
+dd a {
+    color:#E4BB90;
+    font-weight: bold;
+    font-style: italics;
+    font-size: 1em;
+    text-decoration: none;
+}
 .modern_table {
     width: 80%;
     background-color: rgb(10, 17, 40);
