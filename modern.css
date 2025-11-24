@@ -56,7 +56,7 @@ h1 {
 }
 p {
     background-color:  rgba(10, 17, 40, 0.8);
-    color:#E4BB90
+    color:#FFFFFF;
 }
 h2 {
     text-align: center;
@@ -95,9 +95,13 @@ dl dt {
     font-size:1.5em;
     color:#E4BB90;
     font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
 }
 dl dd {
     font-weight: bold;
     color:#FFFFFF;
     background-color: rgb(10, 17, 40);
+}
+table {
+    background-color:rgb(10, 17, 40) ;
 }
