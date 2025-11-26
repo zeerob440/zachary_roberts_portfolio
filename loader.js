@@ -1,7 +1,12 @@
-//loads "skin" from localStorage and applies it globally
+/*loader.js (Version Bravo)
+loads "skin" from localStorage and applies it globally
+This version was created once the portfolio was live
+links changed, and I could improve the structure by
+replacing the for loop with an if-else selection.*/
 
 /*Proudly engineered by Zachary Roberts 16 NOV 2025.
-"We do these things because they are hard."*/
+"We do these things because they are hard, and we repeat until
+they are easy."*/
 
 (function() {
     //detects current "skin" from browser.
@@ -13,8 +18,8 @@
         ?"/zachary_roberts_portfolio/"
         :"./"
     /*gets <link id="skinStlyesheet" element.
-        if saved skin is 'retro' load retro.ccs by concat pathStart + "retro.css".
-        else concat pathStart + "modern.css" load "modern.css".*/
+        if saved skin is 'retro' load retro.css by concatenate pathStart + "retro.css".
+        else concatenate pathStart + "modern.css" load "modern.css".*/
     const link = document.getElementById("skinStylesheet")
     
     if (skin === "retro") {
