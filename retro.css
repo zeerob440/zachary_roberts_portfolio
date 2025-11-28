@@ -178,3 +178,8 @@ form h3 {
     font-size: 1.6em;
     color:purple;
 }
+footer {
+    font-style: italic;
+    background-color: #FF006C;
+    border: 3px solid chartreuse;
+}
