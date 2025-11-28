@@ -148,12 +148,13 @@ form {
     display: flex;
     text-align: left;
     flex-direction: column;
-    background-color: #FF006C;
+    background-image: url("images/memphis_retro.png");
+    background-repeat: none;
     color:navy;
     font-size: 1em;
     font-weight: bold;
     max-width: 600px;
-    border: 3px solid #FFFFFF;
+    border: 3px solid chartreuse;
     padding: 15px;
 }
 
