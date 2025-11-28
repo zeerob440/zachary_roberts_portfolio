@@ -158,3 +158,8 @@ form label {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+form textarea {
+    max-width: 400px;
+    max-height: 120px;
+}
