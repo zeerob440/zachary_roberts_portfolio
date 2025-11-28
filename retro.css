@@ -149,6 +149,9 @@ form {
     color:navy;
     font-size: 1em;
     font-weight: bold;
-    padding-top: 10%;
+    max-width: 500px;
+}
 
+form.label {
+    padding-top: 10px;
 }
