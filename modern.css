@@ -158,4 +158,10 @@ footer {
     padding: 15px;
     font-size: 0.75rem;
 }
+form {
+    text-align: center;
+    display: block;
+    max-width: 900px;
+    padding: 15px;
+}
  
