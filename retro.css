@@ -163,4 +163,6 @@ form label {
 form textarea {
     max-width: 400px;
     max-height: 120px;
+    width: 100%;
+    display: block;
 }
