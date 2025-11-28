@@ -49,6 +49,10 @@ h2 {
     font-size: 3em;
     
 }
+h3 {
+    text-align: center
+    font-weight: bold;
+}
 .new {
     background-image: url("images/new_two.gif");
     padding-left: 36px;
