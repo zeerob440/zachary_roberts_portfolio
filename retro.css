@@ -162,7 +162,7 @@ form label {
     padding-top: 30px;
     padding-bottom: 30px;
     display: block;
-    color:#FF006C
+    color:#FFFFFF
 }
 
 form textarea {
@@ -170,11 +170,11 @@ form textarea {
     max-height: 300px;
     width: 100%;
     display: block;
-    color:#FF006C;
+    color:#FFFFFF;
 }
 
 form h3 {
     text-align: center;
     font-size: 1.6em;
-    color:#FF006C;
+    color:#FFFFFF;
 }
