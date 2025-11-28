@@ -157,6 +157,7 @@ form {
 form label {
     padding-top: 30px;
     padding-bottom: 30px;
+    display: block;
 }
 
 form textarea {
