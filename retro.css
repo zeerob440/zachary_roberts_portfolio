@@ -141,3 +141,10 @@ button:hover {
     background-color: #FF006C;
 }
     
+form {
+    text-align: left;
+    flex-direction: column;
+    background-color: #FF006C;
+    color:navy;
+
+}
