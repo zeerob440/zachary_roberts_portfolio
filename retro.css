@@ -152,6 +152,6 @@ form {
     max-width: 500px;
 }
 
-form.label {
+form label {
     padding-top: 10px;
 }
