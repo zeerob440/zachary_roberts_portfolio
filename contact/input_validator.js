@@ -8,4 +8,6 @@ Proudly Engineererd by Zachary Roberts 28 NOV 2025.
 
 const validator =document.getElementById("sendIt");
 
-validator.addEventListener("click", )
+validator.addEventListener("click", () => {
+    
+}

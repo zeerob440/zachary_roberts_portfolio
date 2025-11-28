@@ -37,11 +37,18 @@
 >
 <label>
     Company
-    <input name="message">
+    <input name="company"
+        minlength="1"
+        title="Company field must contain a value."
+    >
 </label>
   <label>
     Name
-    <input name="message">
+    <input name="name"
+        required
+        pattern "[A-Za-z\s]+"
+        title= "Name field cannot include numbers or symbols"
+    >
   </label>
   <label>
     Email
@@ -49,7 +56,12 @@
   </label>
   <label>
     Portfolio Feedback
-    <textarea name="message"></textarea>
+    <textarea 
+    name="portfolio"
+    maxlength="500"
+    spellcheck="true"
+    placeholder="I build and perfect, please share your feedback about my portfolio UX!">
+    </textarea>
   </label>
   
   <button id ="sendIt" type="submit">Submit</button>
