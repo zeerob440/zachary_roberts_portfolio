@@ -81,6 +81,7 @@ ul {
     background-color: rgba(10, 17, 40, 0.8);;
     text-align: center;
     list-style-type: none;
+    max-width: 900px;
     
 }
 h4 {
