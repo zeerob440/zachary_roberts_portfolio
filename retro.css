@@ -50,7 +50,6 @@ h2 {
     
 }
 h3 {
-    text-align: center;
     font-weight: bold;
 }
 .new {
@@ -169,4 +168,8 @@ form textarea {
     max-height: 120px;
     width: 100%;
     display: block;
+}
+
+form h3 {
+    text-align: center;
 }
