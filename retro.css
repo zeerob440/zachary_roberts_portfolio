@@ -11,6 +11,8 @@ nav {
     background-size: cover;
     background-repeat: none;
     background-position: center;
+    border: 3px solid chartreuse;
+    padding: 15px;
     
 }
 nav a:hover {
