@@ -38,7 +38,9 @@
 <label>
     Company
     <input name="company"
+        required
         minlength="1"
+        max="20"
         title="Company field must contain a value."
     >
 </label>
@@ -47,12 +49,19 @@
     <input name="name"
         required
         pattern="[A-Za-z\s]+"
-        title="Name field cannot include numbers or symbols"
+        maxlength="28"
+        title="Name field cannot include numbers or symbols."
     >
   </label>
   <label>
     Email
-    <input type="email" name="email">
+    <input
+     type="email"
+     name="email"
+     required
+     pattern ="^[^\s@]+@[^\sa]+\.(com|org|net|edu|gov|mil|io|ai)$"
+     title = "Enter a valid email address."  
+    >
   </label>
   <label>
     Portfolio Feedback
