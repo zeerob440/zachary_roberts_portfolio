@@ -1,12 +1,14 @@
-/*loader.js (Version Bravo)
+/*
+loader.js (Version Bravo)
 loads "skin" from localStorage and applies it globally
 This version was created once the portfolio was live
 links changed, and I could improve the structure by
-replacing the for loop with an if-else selection.*/
+replacing the for loop with an if-else selection.
 
-/*Proudly engineered by Zachary Roberts 16 NOV 2025.
+Proudly engineered by Zachary Roberts 16 NOV 2025.
 "We do these things because they are hard, and we repeat until
-they are easy."*/
+they are easy."
+*/
 
 (function() {
     //detects current "skin" from browser.

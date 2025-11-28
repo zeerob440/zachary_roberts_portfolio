@@ -1,7 +1,9 @@
-//toggle.js is intended to switch the ccs the browser applies according to user input.
+/*
+toggle.js is intended to switch the ccs the browser applies according to user input.
 
-/*Proudly Engineered by Zachary Roberts 14 NOV 2025.
-"Hold on to your butts." Ray Arnold, Jurassic Park.*/
+Proudly Engineered by Zachary Roberts 14 NOV 2025.
+"Hold on to your butts." Ray Arnold, Jurassic Park.
+*/
 
 //finds button id styleToggle, stores it to toggle.
 const toggle =document.getElementById("styleToggle");
