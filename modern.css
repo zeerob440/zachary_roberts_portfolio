@@ -170,4 +170,9 @@ form {
     color:#E4BB90;
     margin: 0 auto;
 }
+form textarea {
+    max-width: 400px;
+    max-height: 300px;
+    width: 100%;
+}
  
