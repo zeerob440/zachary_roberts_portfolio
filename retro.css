@@ -9,7 +9,6 @@ nav {
     font-weight: bold;
     background-image: url("images/memphis_retro.png");
     background-size: cover;
-    background-repeat: none;
     background-position: center;
     border: 3px solid chartreuse;
     padding: 15px;
@@ -150,7 +149,6 @@ form {
     text-align: left;
     flex-direction: column;
     background-image: url("images/memphis_retro.png");
-    background-repeat: none;
     color:navy;
     font-size: 1em;
     font-weight: bold;
