@@ -168,8 +168,8 @@ form {
     border: 1px solid #E4BB90;
     color:#E4BB90;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    gap: 20px;
+
 }
 form textarea {
     max-width: 400px;
