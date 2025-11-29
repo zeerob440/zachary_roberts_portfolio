@@ -169,7 +169,7 @@ form {
     color:#E4BB90;
     margin: 0 auto;
     gap: 20px;
-
+    align-items: center;
 }
 form textarea {
     max-width: 400px;
