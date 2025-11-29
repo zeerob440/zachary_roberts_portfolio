@@ -186,4 +186,8 @@ form label {
     gap: 15px;
 }
 
+form button {
+    font-size: 1.3em;
+}
+
  
