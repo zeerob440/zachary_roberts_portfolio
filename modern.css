@@ -170,7 +170,7 @@ form {
     color:#E4BB90;
     gap: 40px;
     align-items: center;
-    margin: 0 auto;
+    background-position: center;
 }
 form textarea {
     max-width: 400px;
