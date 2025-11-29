@@ -161,7 +161,6 @@ footer {
     font-size: 0.75rem;
 }
 form {
-    text-align: center;
     display: flex;
     flex-direction: column;
     max-width: 900px;
