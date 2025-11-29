@@ -165,11 +165,12 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 900px;
-    padding: 30px;
     background-color:rgba(10, 17, 40, 0.8);
     border: 1px solid #E4BB90;
     color:#E4BB90;
     margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 form textarea {
     max-width: 400px;
