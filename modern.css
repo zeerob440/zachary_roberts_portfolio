@@ -186,11 +186,5 @@ form label {
     gap: 15px;
 }
 
-form button {
-    font-size: 1.3em;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
 
  
