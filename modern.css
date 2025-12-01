@@ -51,6 +51,8 @@ h1 {
     background-size: 256px;
     background-repeat: no-repeat;
     background-position: center;
+}
+img {
     border: 3px solid #FFFFFF;
 }
 p {
