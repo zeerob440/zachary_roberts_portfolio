@@ -48,9 +48,11 @@ h1 {
 }
 .modern_about {
     background-image: url("images/modern_avatar_256.jpg");
-    background-size: 256px;
+    background-size: 256px 256px;
     background-repeat: no-repeat;
     background-position: center;
+    height: 256px;
+    
 }
 p {
     background-color:  rgba(10, 17, 40, 0.8);
