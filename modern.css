@@ -47,12 +47,12 @@ h1 {
     color: #E4BB90;
 }
 .modern_about {
-    background-image: url("images/modern_avatar_256.jpg"),
-    url("images/modern_background.png");
-    background-size: 256px, 50%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: center, center;
+    background-image: url("images/modern_avatar_256.jpg");
+    background-size: 256px;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 256px;
+    border: 3px solid #FFFFFF;
 }
 p {
     background-color:  rgba(10, 17, 40, 0.8);
