@@ -66,7 +66,8 @@ h3 {
     background-size: 128px, 128px auto;
     background-repeat: no-repeat, repeat;
     background-position: left center, center;
-    height: 128px; 
+    height: 128px;
+    border: 3px solid chartreuse; 
 }
 
 .retro_javascript {
@@ -75,6 +76,7 @@ h3 {
     background-repeat: no-repeat, repeat;
     background-position: left center, center;
     height: 128px;
+    border: 3px solid chartreuse;
     
 }
 .retro_cpp {
@@ -83,6 +85,7 @@ h3 {
     background-repeat: no-repeat, repeat;
     background-position: left center, center;
     height: 128px;
+    border: 3px solid chartreuse;
 }
 .construction_cpp {
     background-image: url("images/construction_sixty_four.png");
@@ -106,6 +109,7 @@ h3 {
     background-repeat: no-repeat, repeat;
     background-position: left center, center;
     height: 128px;
+    border: 3px solid chartreuse;
 }
 .you_got_mail {
     background-image: url("images/you_got_mail128.gif"), url("images/memphis_retro.png");
@@ -113,6 +117,7 @@ h3 {
     background-repeat: no-repeat, repeat;
     background-position: left center, center;
     height: 128px;
+    border: 3px solid chartreuse;
 }
 .retro_table {
     width: 80%;
