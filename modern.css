@@ -109,7 +109,7 @@ dl dd {
     background-color: rgb(10, 17, 40);
     line-height: 1.5;
     max-width: 900px;
-    margin: 0 auto;
+    margin-bottom: 1.25rem;
 }
 dd p {
     color:#E4BB90;
