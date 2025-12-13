@@ -189,3 +189,7 @@ footer {
     margin-top: 50px;
     padding: 15px;
 }
+
+dl dd {
+    margin-bottom: 1.25rem;
+}
