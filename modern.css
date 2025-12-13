@@ -94,6 +94,11 @@ h4 {
          2px  2px 0 rgb(10, 17, 40);
 
 }
+
+dl {
+    margin: 0 auto;
+    max-width: 900px;
+}
 dl dt {
     text-shadow: -2px -2px 0 rgb(10, 17, 40),
          2px -2px 0 rgb(10, 17, 40),
