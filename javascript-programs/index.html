@@ -40,52 +40,38 @@
 <dl>
     <dt class ="new">toggle.js</dt>
     <dd>
-    <p>toggle.js is a program that determines which "skin" is active from the browser, listens for a click from class styleToggle button in
+        toggle.js is a program that determines which "skin" is active from the browser, listens for a click from class styleToggle button in
         root/index.html,it assigns "modern" if nothing is set in the browser. If the current value in "skin" is "retro" it assigns "modern"
         and redirects to the homepage.Otherwise, it applies "retro" and redirects the user to transition/index.html. This program was hard
         to write as I am just starting out in JavaScript,but from Python I knew I required either a Boolean condition test or an if-else
         structure to make it function, the biggest thing I learned was how to store information to the browser and retrieve it.       
-    </p>
-    </dd>
-    <dd>
         <a href="https://github.com/zeerob440/toggle_javascript">GitHub_toggle_javascript</a>
     </dd>
-    <br>
+
     <dt class ="new">wht_rbt_obj.js</dt>
     <dd>
-        <p> Jurassic Park is my 2nd favorite book and movie of all time. I read it in second grade. I needed a dictionary and a lot 
-            of grit to finish it, but I understood a lot of it. It was a difficult task, but my reading comprehension was sling-shotted 
-            far above my grade level as a result.
-        </p>
-        <p>
-            wht_rbt_obj.js is a for loop that prints directly to a webpage. Once it finishes, it redirects to root/index.html with
-            retro.ccs applied. This program taught me how to build a for loop in JavaScript, and print it to a webpage. wht_rbt_obj.js
-            outputs in transition/index.html. transition/index.html is styled by terminal.css.
-        </p>
-    </dd>
-    <dd>
+        Jurassic Park is my 2nd favorite book and movie of all time. I read it in second grade. I needed a dictionary and a lot 
+        of grit to finish it, but I understood a lot of it. It was a difficult task, but my reading comprehension was sling-shotted 
+        far above my grade level as a result.wht_rbt_obj.js is a for loop that prints directly to a webpage. Once it finishes, 
+        it redirects to root/index.html with
+        retro.ccs applied. This program taught me how to build a for loop in JavaScript, and print it to a webpage. wht_rbt_obj.js
+        outputs in transition/index.html. transition/index.html is styled by terminal.css.
         <a href="https://github.com/zeerob440/wht_rbt_obj_javascript">GitHub_wht_rbt_obj_javascript</a>
     </dd>
     <dt class ="new">loader.js</dt>
     <dd>
-        <p>loader.js determines which CSS file the browser should load. It checks the saved
-            "skin" value in localStorage (modern as default). Next, it determines the current file depth
-            in the folder structure by splitting the file path into a list. It subtracts the first 
-            and last elements of the list to calculate directory depth. A for loop then builds a prefix of 
-            "../" repeated for each level. Finally, it concatenates the prefix with either "modern.ccs", or
-            "retro.ccs" thereby allowing the correct stylesheet to load, despite which page calls loader.js.
-            loader.js is distributed across all pages except transition/index.html, as it uses the static stylesheet
-            terminal.css.    
-        </p>
-    </dd>
-    <dd>
+        loader.js determines which CSS file the browser should load. It checks the saved
+        "skin" value in localStorage (modern as default).Next it checks if github.io is part of the file path, 
+        if so it adds abslute filepath to the like, otherwise it uses relative filepath. 
+        finally an if/eles selection determines which css loads and it redirects the user to root index. 
+        terminal.css.    
         <a href="https://github.com/zeerob440/loader_javascript">GitHub_loader_javascript</a>
     </dd>
 </dl> 
-</body>
 <footer>
     <p>
         Proudly engineered by Zachary Roberts 09 NOV 2025.
     </p>
 </footer>
+</body>
 </html>
