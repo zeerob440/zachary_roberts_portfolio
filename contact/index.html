@@ -46,30 +46,32 @@
 </label>
   <label>
     Name
-    <input name="name"
+    <input 
+        type="text"
+        name="name"
         required
         pattern="[A-Za-z\s]+"
-        maxlength="28"
+        max="28"
         title="Name field cannot include numbers or symbols."
     >
   </label>
   <label>
     Email
     <input
-     type="email"
-     name="email"
-     required
-     pattern ="^[^\s@]+@[^\s]+\.(com|org|net|edu|gov|mil|io|ai)$"
-     title = "Enter a valid email address."  
+        type="email"
+        name="email"
+        required
+        pattern ="^[^\s@]+@[^\s]+\.(com|org|net|edu|gov|mil|io|ai)$"
+        title = "Enter a valid email address."  
     >
   </label>
   <label>
     Portfolio Feedback
     <textarea 
-    name="portfolio"
-    maxlength="500"
-    spellcheck="true"
-    placeholder="I build and perfect, please share your feedback about my portfolio UX!">
+        name="portfolio"
+        maxlength="500"
+        spellcheck="true"
+        placeholder="I build and perfect, please share your feedback about my portfolio UX!">
     </textarea>
   </label>
   
