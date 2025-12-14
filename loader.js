@@ -15,7 +15,7 @@ they are easy."
     const skin = localStorage.getItem("skin") || "modern";
    
     const gitHubLive = window.location.hostname.includes("github.io");
-    // use absolute path else use relative filepath. 
+    // use absolute path if site is live else use relative path. 
     const pathStart = gitHubLive
         ?"/zachary_roberts_portfolio/"
         :"./"

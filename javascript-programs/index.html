@@ -60,11 +60,9 @@
     </dd>
     <dt class ="new">loader.js</dt>
     <dd>
-        loader.js determines which CSS file the browser should load. It checks the saved
-        "skin" value in localStorage (modern as default).Next it checks if github.io is part of the file path, 
-        if so it adds abslute filepath to the like, otherwise it uses relative filepath. 
-        finally an if/eles selection determines which css loads and it redirects the user to root index. 
-        terminal.css.    
+        loader.js determines which CSS file the browser should load. By checking the saved "skin" value in localStorage 
+        (modern as default if none exists). The program also detects if it is running locally or is hosted on Github pages,
+        it uses an if/else structure to modify the file path before loading modern.css or retro.css.  
         <a href="https://github.com/zeerob440/loader_javascript">GitHub_loader_javascript</a>
     </dd>
 </dl> 
