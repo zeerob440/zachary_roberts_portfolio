@@ -197,3 +197,7 @@ footer {
 dl dd {
     margin-bottom: 1.25rem;
 }
+
+td a {
+    color: orange;
+}
