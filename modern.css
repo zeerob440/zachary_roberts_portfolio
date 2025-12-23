@@ -191,12 +191,14 @@ form label {
 }
 
 td a {
-    color: #E4BB90;
+    color: #7BAFD4;
     text-decoration: none;
     font-family: "Trebuchet MS", sans-serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
  td a:hover {
-    color:#FFFFFF;
+    color: #E4BB90;
     font-style: italic;
  }
