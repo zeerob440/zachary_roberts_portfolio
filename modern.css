@@ -198,5 +198,5 @@ td a {
 
  td a:hover {
     color:#FFFFFF;
-    font: italic;
+    font-style: italic;
  }
