@@ -197,5 +197,6 @@ td a {
 }
 
  td a:hover {
-    color:#FFFFFF
+    color:#FFFFFF;
+    font: italic;
  }
