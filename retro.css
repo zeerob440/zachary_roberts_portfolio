@@ -203,10 +203,7 @@ td a {
 }
 
 td a:hover {
-    display: block;
     font-weight: bold;
-    text-align: left;
-    font-size: 1.2em;
     color:chartreuse;
     background-color: #FF006C;
 }
