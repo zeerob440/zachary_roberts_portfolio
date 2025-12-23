@@ -196,4 +196,6 @@ td a {
     font-family: "Trebuchet MS", sans-serif;
 }
 
- 
+ td a:hover {
+    color:#FFFFFF
+ }
