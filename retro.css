@@ -124,7 +124,7 @@ h3 {
     border: 3px solid chartreuse;
 }
 .retro_world_wide_web {
-    background-image: url("images/retro_www_128.gif"), url("images/memphis_retro.png");
+    background-image: url("images/retro_www_2_128.gif"), url("images/memphis_retro.png");
     background-size: 128px, 128px auto;
     background-repeat: no-repeat, repeat;
     background-position: left center, center;
