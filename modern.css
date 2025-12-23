@@ -190,5 +190,10 @@ form label {
     gap: 15px;
 }
 
+td a {
+    color: #E4BB90;
+    text-decoration: none;
+    font-family: "Trebuchet MS", sans-serif;
+}
 
  
