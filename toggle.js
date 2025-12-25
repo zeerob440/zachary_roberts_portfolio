@@ -11,7 +11,7 @@ const toggle =document.getElementById("styleToggle");
 //click event listener added to toggle, declares var current gets "skin" from local storage, if nothing stored, assigns "modern".
 toggle.addEventListener("click", () => { 
     const current = localStorage.getItem("skin") || "modern";
-    //if current === retro , it sets skin in browser to modern and redricts user to root/index.html
+    //if current === retro , it sets skin in browser to modern and redirects user to root/index.html
     if (current === "retro") {
         localStorage.setItem("skin", "modern");
         window.location.href="index.html";
