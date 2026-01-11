@@ -65,6 +65,13 @@ h3 {
     
 }
 
+.fire_content {
+    background-image: url("images/fire_thirty_two.gif");
+    padding-left: 36px;
+    line-height: 36px;
+    background-repeat: no-repeat;  
+}
+
 .retro_python {
     background-image: url("images/python_128.gif"), url("images/memphis_retro.png");
     background-size: 128px, 128px auto;
