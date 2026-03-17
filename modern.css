@@ -68,10 +68,11 @@ h2 {
     font-family: "Trebuchet MS", sans-serif;
     color: #E4BB90;
     font-weight: bold;
-    text-shadow: -2px -2px 0 rgb(10, 17, 40),
+    /*text-shadow: -2px -2px 0 rgb(10, 17, 40),
          2px -2px 0 rgb(10, 17, 40),
         -2px  2px 0 rgb(10, 17, 40),
          2px  2px 0 rgb(10, 17, 40);
+    */
 }
 ul {
     color:#FFFFFF;
