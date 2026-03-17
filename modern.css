@@ -103,6 +103,7 @@ h4 {
 dl {
     margin: 0 auto;
     max-width: 900px;
+    padding-top: 2px;
 }
 dl dt {
     text-shadow:
