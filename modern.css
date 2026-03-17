@@ -121,6 +121,7 @@ dl dd {
     line-height: 1.5;
     max-width: 900px;
     margin-bottom: 1.25rem;
+    padding-bottom: 3px;
 }
 dd p {
     color:#E4BB90;
