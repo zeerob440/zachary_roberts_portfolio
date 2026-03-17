@@ -42,9 +42,14 @@ button:hover {
 }
 h1 {
     text-align: center;
-    background-color: rgba(10, 17, 40,.80);
+    /*background-color: rgba(10, 17, 40,.80);*/
     background-size: cover;
     color: #E4BB90;
+    text-shadow:
+        .5px .5px 0 #0a1128,
+        1px 1px 0 #0a1128,
+        1.5px 1.5px 0 #0a1128,
+        2px 2px 0 #0a1128; 
 }
 .modern_about {
     background-image: url("images/modern_avatar_256.jpg");
