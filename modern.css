@@ -212,3 +212,7 @@ td a {
     color: #E4BB90;
     font-style: italic;
  }
+
+ header {
+    padding-bottom: 2px;
+ }
