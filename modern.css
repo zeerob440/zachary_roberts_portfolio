@@ -69,13 +69,10 @@ h2 {
     color: #E4BB90;
     font-weight: bold;
     text-shadow:
+        .5px .5px 0 #0a1128,
         1px 1px 0 #0a1128,
-        2px 2px 0 #0a1128,
-        3px 3px 0 #0a1128,
-        4px 4px 0 #0a1128;
-
-       
-
+        1.5px 1.5px 0 #0a1128,
+        2px 2px 0 #0a1128;
     /*text-shadow: -2px -2px 0 rgb(10, 17, 40),
          2px -2px 0 rgb(10, 17, 40),
         -2px  2px 0 rgb(10, 17, 40),
