@@ -42,7 +42,6 @@ button:hover {
 }
 h1 {
     text-align: center;
-    /*background-color: rgba(10, 17, 40,.80);*/
     background-size: cover;
     color: #E4BB90;
     text-shadow:
@@ -94,11 +93,11 @@ h4 {
     color:#E4BB90;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 1.2em;
-    text-shadow: -2px -2px 0 rgb(10, 17, 40),
-         2px -2px 0 rgb(10, 17, 40),
-        -2px  2px 0 rgb(10, 17, 40),
-         2px  2px 0 rgb(10, 17, 40);
-
+    text-shadow:
+        .5px .5px 0 #0a1128,
+        1px 1px 0 #0a1128,
+        1.5px 1.5px 0 #0a1128,
+        2px 2px 0 #0a1128; 
 }
 
 dl {
@@ -106,10 +105,11 @@ dl {
     max-width: 900px;
 }
 dl dt {
-    text-shadow: -2px -2px 0 rgb(10, 17, 40),
-         2px -2px 0 rgb(10, 17, 40),
-        -2px  2px 0 rgb(10, 17, 40),
-         2px  2px 0 rgb(10, 17, 40);
+    text-shadow:
+        .5px .5px 0 #0a1128,
+        1px 1px 0 #0a1128,
+        1.5px 1.5px 0 #0a1128,
+        2px 2px 0 #0a1128; 
     font-size:1.8em;
     color:#E4BB90;
     font-family: "Trebuchet MS", sans-serif;
