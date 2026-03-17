@@ -114,6 +114,7 @@ dl dt {
     color:#E4BB90;
     font-family: "Trebuchet MS", sans-serif;
     text-align: center;
+    padding-top: 2px;
     padding-bottom: 2px;
 }
 dl dd {
