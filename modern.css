@@ -117,7 +117,7 @@ dl dt {
 }
 dl dd {
     color:#E4BB90;
-    background-color: rgb(10, 17, 40);
+    background-color:rgba(10, 17, 40, 0.8);
     line-height: 1.5;
     max-width: 900px;
     margin-bottom: 1.25rem;
@@ -141,7 +141,7 @@ dd a:hover {
 }
 .modern_table {
     width: 80%;
-    background-color: rgb(10, 17, 40);
+    background-color: rgba(10, 17, 40, 0.8);
     color: #E4BB90;
     border-collapse: collapse;
     border: solid;
