@@ -52,7 +52,7 @@ h1 {
 }
 .modern_about {
     background-image: url("images/modern_avatar_lg.jpeg");
-    background-size: 256px 256px;
+    background-size: 512px 512px;
     background-repeat: no-repeat;
     background-position: center;
     height: 256px;
