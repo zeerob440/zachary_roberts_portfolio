@@ -157,7 +157,7 @@ h3 {
     border: 3px solid chartreuse;  
 }
 .retro_table {
-    width: 80%;
+    max-width: 1024px;
     background-color: purple;
     color: white;
     border-collapse: collapse;
