@@ -1,7 +1,7 @@
 body {
     background: #C0C0C0;
     font-family: "Times New Roman", sans-serif;
-    max-width: 600px;
+    max-width: 800px;
 }
 nav {
     display: flex;
@@ -195,7 +195,6 @@ form {
     color:navy;
     font-size: 1em;
     font-weight: bold;
-    max-width: 600px;
     border: 3px solid chartreuse;
     padding: 15px;
 }
@@ -241,6 +240,3 @@ td a:hover {
     background-color: #FF006C;
 }
 
-p {
-    max-width: 600px;
-}
