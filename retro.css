@@ -240,3 +240,7 @@ td a:hover {
     background-color: #FF006C;
 }
 
+form button {
+    width: 20%;
+}
+
