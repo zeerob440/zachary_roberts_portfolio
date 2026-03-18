@@ -1,10 +1,8 @@
-* {
-    max-width: 1024;
-}
 
 body {
     background: #C0C0C0;
     font-family: "Times New Roman", sans-serif;
+    max-width: 1024px;
 }
 nav {
     display: flex;
@@ -15,7 +13,8 @@ nav {
     background-size: cover;
     background-position: center;
     border: 3px solid chartreuse;
-    padding: 15px;   
+    padding: 15px;
+    max-width: 1024px;   
 }
 nav a:hover {
     display: block;
