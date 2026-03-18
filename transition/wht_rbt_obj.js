@@ -17,6 +17,7 @@ let iteration = 0;
 let sentinel = 90;
 //set cascading scree interval, effect must be cinematic
 //output string, increment counter
+console.log('Hold on to your butts!')
 let timing = setInterval(() => {
     terminal.innerHTML += ydstmw + "<br>";
 iteration++;
