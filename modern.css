@@ -217,3 +217,8 @@ td a {
  header {
     margin-bottom: 48px;
  }
+
+ .exp {
+    background-image: url("images/modern_background_2.png");
+    background-size: 32px 32px;
+ }
