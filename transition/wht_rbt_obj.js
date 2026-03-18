@@ -1,5 +1,5 @@
 /*
-wht_rbt_obj.js IS NOT AN OBJECT. It is is a cinimatic transition from modern.ccs to retro.ccs that outputs on transition/index.html.
+wht_rbt_obj.js IS NOT AN OBJECT. It is is a cinematic transition from modern.ccs to retro.ccs that outputs on transition/index.html.
  Named after the notorious Jurassic Park bug "wht_rbt.obj" from Michael Chrichton's Jurassic Park.
 
 Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025
@@ -21,8 +21,8 @@ console.log('Hold on to your butts!')
 let timing = setInterval(() => {
     terminal.innerHTML += ydstmw + "<br>";
 iteration++;
-/*exit loop when ineration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
- exceedes sentinel some reason. returns to root index.*/
+/*exit loop when iteration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
+ exceeds sentinel some reason. returns to root index.*/
 
 if (iteration >= sentinel) {
     clearInterval(timing);
