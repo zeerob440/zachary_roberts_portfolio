@@ -245,3 +245,9 @@ td a:hover {
 form button {
     width: 20%;
 }
+
+div {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
