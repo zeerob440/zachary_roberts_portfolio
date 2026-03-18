@@ -218,6 +218,11 @@ td a {
     margin-bottom: 48px;
  }
 
+ div {
+    margin-top: 48px;
+    margin-bottom: 48px;
+ }
+
  /*.exp {
     background-image: url("images/modern_background_2.png");
     height: 32px;
