@@ -3,9 +3,7 @@ body {
     color: #F5F9FF;
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
-    height: 100%;
-    width: 100%;
+    background-size: contain;
     background-position: center;
     }
 nav {
