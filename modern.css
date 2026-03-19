@@ -51,11 +51,11 @@ h1 {
         2px 2px 0 #0a1128; 
 }
 .modern_about {
-    background-image: url("images/modern_avatar_lg.jpeg");
-    background-size: 512px 512px;
+    background-image: url("images/modern_avatar_256.jpeg");
+    background-size: 410px 410px;
     background-repeat: no-repeat;
     background-position: center;
-    height: 512px;
+    height: 410px;
 }
 p {
     background-color:  rgba(10, 17, 40, 0.8);
