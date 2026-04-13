@@ -15,7 +15,7 @@ nav {
 nav a {
     text-align: center;
     font-size: 1.4em;
-    color: #7BAFD4;
+    color: lightgoldenrodyellow;
     font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -27,7 +27,7 @@ nav a:hover {
 }
 button {
     color: rgba(10, 17, 40, 0.8);
-    background-color:#7BAFD4 ;
+    background-color:lightgoldenrodyellow;
     font-weight: bold;
     display: block;
     margin: 0 auto;
@@ -60,7 +60,7 @@ h1 {
 }
 p {
     background-color:  rgba(10, 17, 40, 0.8);
-    color:#FFFFFF;
+    color:#E4BB90;
     font-family: arial, sans-serif;
     font-weight: bold;
     line-height: 1.5;
@@ -81,7 +81,7 @@ h2 {
         2px 2px 0 #0a1128;
 }
 ul {
-    color:#FFFFFF;
+    color:#E4BB90;
     font-size: 1em;
     background-color: rgba(10, 17, 40, 0.8);
     text-align: center;
@@ -134,7 +134,7 @@ dd p {
     font-family: "Trebuchet MS", san sans-serif;
 }
 dd a {
-    color:#7BAFD4;
+    color:lightgoldenrodyellow;
     font-weight: bold;
     font-style: italic;
     font-size: 1em;
@@ -203,7 +203,7 @@ form label {
 }
 
 td a {
-    color: #7BAFD4;
+    color: lightgoldenrodyellow;
     text-decoration: none;
     font-family: "Trebuchet MS", sans-serif;
     font-style: italic;
@@ -211,7 +211,7 @@ td a {
 }
 
  td a:hover {
-    color: #E4BB90;
+    color: #FFFFFF;
     font-style: italic;
  }
 
@@ -235,7 +235,7 @@ td a {
 }
 
 a {
-    color:  #FFFFFF;
+    color:  lightgoldenrodyellow;
     text-decoration: none;
     text-shadow:
         .5px .5px 0 #0a1128,
@@ -246,7 +246,7 @@ a {
 }
 
 a:hover{
-    color:lightgoldenrodyellow;
+    color:#FFFFFF;
     text-decoration: none;
     text-shadow:
         .5px .5px 0 #0a1128,
