@@ -233,3 +233,13 @@ td a {
   object-fit: cover;
   z-index: -1;
 }
+
+a {
+    color:  #7BAFD4;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFFFFF;
+    text-decoration: none;
+}
