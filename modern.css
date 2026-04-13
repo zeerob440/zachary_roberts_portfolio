@@ -204,7 +204,7 @@ form label {
 
 td a {
     color: lightgoldenrodyellow;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: "Trebuchet MS", sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -236,7 +236,7 @@ td a {
 
 a {
     color:  lightgoldenrodyellow;
-    text-decoration: none;
+    text-decoration: underline;
     text-shadow:
         .5px .5px 0 #0a1128,
         1px 1px 0 #0a1128,
@@ -247,7 +247,7 @@ a {
 
 a:hover{
     color:#FFFFFF;
-    text-decoration: none;
+    text-decoration: underline;
     text-shadow:
         .5px .5px 0 #0a1128,
         1px 1px 0 #0a1128,
