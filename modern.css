@@ -235,7 +235,7 @@ td a {
 }
 
 a {
-    color:  yellowgreen;
+    color:  #FFFFFF;
     text-decoration: none;
     text-shadow:
         .5px .5px 0 #0a1128,
@@ -246,7 +246,7 @@ a {
 }
 
 a:hover{
-    color:#FFFFFF;
+    color:lightgoldenrodyellow;
     text-decoration: none;
     text-shadow:
         .5px .5px 0 #0a1128,
