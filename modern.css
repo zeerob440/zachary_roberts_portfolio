@@ -237,9 +237,19 @@ td a {
 a {
     color:  #7BAFD4;
     text-decoration: none;
+    text-shadow:
+        .5px .5px 0 #0a1128,
+        1px 1px 0 #0a1128,
+        1.5px 1.5px 0 #0a1128,
+        2px 2px 0 #0a1128; 
 }
 
 a:hover{
     color:#FFFFFF;
     text-decoration: none;
+    text-shadow:
+        .5px .5px 0 #0a1128,
+        1px 1px 0 #0a1128,
+        1.5px 1.5px 0 #0a1128,
+        2px 2px 0 #0a1128; 
 }
