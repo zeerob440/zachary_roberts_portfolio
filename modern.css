@@ -171,6 +171,7 @@ dd a:hover {
     border: 1px solid #FFFFFF;
     padding: 10px;
     color:#FFFFFF;
+    table-layout: fixed;
 }
 
 footer {
