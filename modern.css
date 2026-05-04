@@ -162,7 +162,7 @@ dd a:hover {
     background-image: url("images/adept_32.png");
     background-repeat: no-repeat;
     background-size: 32px 32px;
-    width: calc(32px);
+    width: 32px;
     height: 32px;
     background-position: center center;
  }  
@@ -171,6 +171,9 @@ dd a:hover {
     border: 1px solid #FFFFFF;
     padding: 10px;
     color:#FFFFFF;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size:clamp(0.75rem, 1.5vw, 1rem);
 }
 
 footer {
