@@ -155,7 +155,7 @@ dd a:hover {
     border-collapse: collapse;
     border: solid;
     margin: 0 auto;
-    table-layout: auto;
+    overflow-x: auto;
 } 
 
  .adept_modern_table {
@@ -171,9 +171,6 @@ dd a:hover {
     border: 1px solid #FFFFFF;
     padding: 10px;
     color:#FFFFFF;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    font-size:clamp(0.75rem, 1.5vw, 1rem);
 }
 
 footer {
