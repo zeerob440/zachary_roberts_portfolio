@@ -155,7 +155,7 @@ dd a:hover {
     border-collapse: collapse;
     border: solid;
     margin: 0 auto;
-    display: block;
+    table-layout: fixed;
 } 
 
  .adept_modern_table {
