@@ -138,6 +138,8 @@ dl dd {
     margin-bottom: 1.25rem;
     padding-bottom: 5px;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0
     
 }
 dd p {
