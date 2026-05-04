@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     min-width: 100vh;
     display: flex;
+    flex-direction: column;
     }
 nav {
     text-align: center;
