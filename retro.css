@@ -5,6 +5,7 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     min-height: 100vh;
+    display: flex;
 }
 nav {
     display: flex;
