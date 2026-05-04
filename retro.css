@@ -4,6 +4,7 @@ body {
     font-family: "Times New Roman", sans-serif;
     max-width: 1024px;
     margin: 0 auto;
+    min-height: 100vh;
 }
 nav {
     display: flex;
