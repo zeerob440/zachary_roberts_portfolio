@@ -8,12 +8,11 @@ My portfolio is my first front-end development project. It is intended to be a p
 It is part resume part neon sign, its most notable feature is dynamic CSS swapping, which applies a modern, or
 retro styling depending on the user interaction. It also features a cinematic transition screen easter egg. 
 
-
 ## Tech Stack
 - HTML
 - CSS
 - JavaScript 
-- Form Spree API
+- Formspree API
 - GitHub Pages
 
 ## Features

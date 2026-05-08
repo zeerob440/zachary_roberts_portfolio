@@ -13,7 +13,6 @@ TERMINAL.textContent = `
 ...ACCESSING THE 90's\n
 BUT....
 \n
-\n
 \n`
 
 //declaration of for loop, set string (YDSTMW), counter (iteration) and robust sentinel value (SENTINEL)
