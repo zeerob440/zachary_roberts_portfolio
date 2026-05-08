@@ -2,30 +2,39 @@
 wht_rbt_obj.js IS NOT AN OBJECT. It is is a cinematic transition from modern.ccs to retro.ccs that outputs on transition/index.html.
  Named after the notorious Jurassic Park bug "wht_rbt.obj" from Michael Chrichton's Jurassic Park.
 
-Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025
+Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025; version Bravo.
 "It's the kicker. wht_rbt.obj, whatever it is, it did it all." -Ray Arnold, Jurassic Park
 */
 
-let terminal = document.getElementById("terminal")
+const TERMINAL = document.getElementById("terminal");
 
-let greet = "...ACCESSING THE 90's...." +"<br>"+"BUT...";
+// create element
+TERMINAL.textContent = `
+...ACCESSING THE 90's\n
+BUT....
+\n
+\n
+\n`
 
-terminal.innerHTML += greet + "<br>".repeat(5);
-//declaration of for loop, set string (ydstmw), counter (iteration) and robust sentinel value (sentinel)
-let ydstmw = "YOU DIDN'T SAY THE MAGIC WORD!";
+//declaration of for loop, set string (YDSTMW), counter (iteration) and robust sentinel value (SENTINEL)
+const CRAWL = document.getElementById('i_hate_this_hacker_crap');
+
+const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
 let iteration = 0;
-let sentinel = 90;
-//set cascading scree interval, effect must be cinematic
-//output string, increment counter
-console.log('Hold on to your butts!')
-let timing = setInterval(() => {
-    terminal.innerHTML += ydstmw + "<br>";
-iteration++;
+const SENTINEL = 90;
+//set cascading screen interval, effect.
+//increment counter
+let timing = setInterval(() => { 
+    CRAWL.textContent += YDSTMW;
+    //string scrolls as new line iterates.
+    window.scrollTo(0, document.body.scrollHeight);  
+    iteration++;
+
 /*exit loop when iteration is greater than or equal to sentinel value, creates two conditions for the loop to exit if iteration
  exceeds sentinel some reason. returns to root index.*/
 
-if (iteration >= sentinel) {
+if (iteration >= SENTINEL) {
     clearInterval(timing);
-    window.location.href ="../index.html";
+    window.location.href ="terminus/index.html";
     }
 }, 30);
