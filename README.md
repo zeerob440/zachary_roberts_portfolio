@@ -47,7 +47,7 @@ My portfolio is designed to switch themes based on user interaction. I believe t
 ![Example of rendered terminal UX](/images/terminal.png)
 *UX with terminal.css applied*
 
-# `retro.css`
+### `retro.css`
 `retro.css` the theme intentionally recreates a late-1990s GeoCities-era web aesthetic using bright colors, animated GIFs, CRT-inspired styling, and period-specific layout conventions.
 
 ![Example of rendered retro UX](/images/ret.png)
