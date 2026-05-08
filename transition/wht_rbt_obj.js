@@ -35,6 +35,6 @@ let timing = setInterval(() => {
 
 if (iteration >= SENTINEL) {
     clearInterval(timing);
-    window.location.href ="terminus/index.html";
+    window.location.href ="/zachary_roberts_portfolio/index.html";
     }
 }, 30);
