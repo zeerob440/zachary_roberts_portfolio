@@ -29,9 +29,19 @@ retro styling depending on the user interaction. It also features a cinematic tr
 ### Usecase Diagram
 
 
-## Behavior
+## BEHAVIOR
 
+`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new css applied.
 
+`modern.css` is designed to provide a polished contemporary interface focused on readability, responsiveness, and professional presentation.
+
+![Example of rendered terminal UX](/images/terminal.png)
+*Example of transition page rendering*
+
+`retro.css` the theme intentionally recreates a late-1990s GeoCities-era web aesthetic using bright colors, animated GIFs, CRT-inspired styling, and period-specific layout conventions.
+
+![Example of rendered retro UX](/images/ret.png)
+*Rendered page with modern.css applied.*
 
 
 ## DATA DESIGN
@@ -39,10 +49,9 @@ My portfolio functions primarily as a client-side static website hosted on GitHu
 
 The contact form includes client-side validation and CAPTCHA verification to reduce spam and unauthorized submissions.
 
-## INTERFACE DeSIGN
+## INTERFACE DESIGN
 
 The portfolio interface is styled through three independent CSS themes: `modern.css`, `retro.css` and `terminal.css`. CSS's can be dynamic swapped by the user by clicking the "Back to the Future" button.
-
 
 ![modern.css UI example](/images/mod_intf.png)
 *Example of UI while modern.css is applied.*
@@ -51,28 +60,8 @@ The portfolio interface is styled through three independent CSS themes: `modern.
 *Example of UI while retro.css is applied.*
 
 
-`modern.css` is designed to provide a polished contemporary interface focused on readability, responsiveness, and professional presentation.
-
-![Example of rendered modern UI](/images/mod.png)
-*Rendered page with modern.css applied.*
-
-`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new css applied.
-
-![Example of rendered retro UI](/images/terminal.png)
-*Example of transition page rendering*
-
-`retro.css` the theme intentionally recreates a late-1990s GeoCities-era web aesthetic using bright colors, animated GIFs, CRT-inspired styling, and period-specific layout conventions.
-
-![Example of rendered retro UI](/images/ret.png)
-*Rendered page with modern.css applied.*
- 
 
 
-# TEST CASES
-1. Ensure each page for at least 2 user choices per page if page does not terminate.
-  
-
-# SUMMARY
 
 
 
