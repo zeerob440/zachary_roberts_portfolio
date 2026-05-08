@@ -8,14 +8,14 @@ My portfolio is my first front-end development project. It is intended to be a p
 It is part resume part neon sign, its most notable feature is dynamic CSS swapping, which applies a modern, or
 retro styling depending on the user interaction. It also features a cinematic transition screen easter egg. 
 
-## Tech Stack
+## TECH STACK
 - HTML
 - CSS
 - JavaScript 
 - Formspree API
 - GitHub Pages
 
-## Features
+## FEATURES
 
 - Dynamic CSS theme switching (modern/retro)
 - Responsive multi-page portfolio design
@@ -26,11 +26,14 @@ retro styling depending on the user interaction. It also features a cinematic tr
 
 ## DESIGN DIAGRAMS
 
-### Usecase Diagram
+### UML Diagram
+My portfolio has one mission set: get recruiters to contact me with job offers via the submissions form.
+
+![portfolio uml](/images/portfolio_uml.drawio.png)
 
 
 ## BEHAVIOR
-My portfolio is designed to switch themes with user interaction.
+My portfolio is designed to switch themes based on user interaction. I believe this behavior increases UX. 
 
 `modern.css` is designed to provide a polished contemporary interface focused on readability, responsiveness, and professional presentation.
 
