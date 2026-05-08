@@ -17,6 +17,7 @@ BUT....
 \n`
 
 //declaration of for loop, set string (YDSTMW), counter (iteration) and robust sentinel value (SENTINEL)
+console.log('Hold on to your butts!')
 const CRAWL = document.getElementById('i_hate_this_hacker_crap');
 
 const YDSTMW = "YOU DIDN'T SAY THE MAGIC WORD!\n";
