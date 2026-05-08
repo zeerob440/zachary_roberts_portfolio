@@ -5,7 +5,7 @@
 
 My portfolio is my first front-end development project. It is intended to be a persistent artifact throughout my career, and therefore will be continuously perfected as my engineering skills develop.
 
-It is part resume part neon sign, its most notable feature is dynamic CSS swapping, which applies a modern, or
+It is part resume part neon sign, its most notable feature is dynamic stylesheet swapping, which applies a modern, or
 retro styling depending on the user interaction. It also features a cinematic transition screen easter egg. 
 
 ## TECH STACK
@@ -40,7 +40,7 @@ My portfolio is designed to switch themes based on user interaction. I believe t
 
 ![Example of rendered modern.css UX](/images/mod.png)
 
-`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new css applied.
+`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new stylesheet applied.
 
 ![Example of rendered terminal UX](/images/terminal.png)
 *UX with terminal.css applied*
@@ -58,7 +58,7 @@ The contact form includes client-side validation and CAPTCHA verification to red
 
 ## INTERFACE DESIGN
 
-The portfolio interface is styled through three independent CSS themes: `modern.css`, `retro.css` and `terminal.css`. CSS's can be dynamic swapped by the user by clicking the "Back to the Future" button.
+The portfolio interface is styled through three independent CSS themes: `modern.css`, `retro.css` and `terminal.css`. Stylesheets can be dynamic swapped by the user by clicking the "Back to the Future" button.
 
 ![modern.css UI example](/images/mod_intf.png)
 *Example of UI while modern.css is applied.*
