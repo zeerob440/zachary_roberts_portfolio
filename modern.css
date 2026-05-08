@@ -202,7 +202,7 @@ form {
     align-items: center;
     margin: 0 auto;
     padding: 15px;
-    width: 100%;  
+    width: 75%;  
 }
 form textarea {
     max-width: 400px;
