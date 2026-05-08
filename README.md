@@ -45,7 +45,7 @@ The contact form includes client-side validation and CAPTCHA verification to red
 
 The portfolio interface is styled through three independent CSS themes: `modern.css`, `retro.css` and `terminal.css`. CSS's can be dynamic swapped by the user by clicking the "Back to the Future" button.
 
-[modern.css UI example](/images/mod_intf.png)
+![modern.css UI example](/images/mod_intf.png)
 
 `modern.css` is designed to provide a polished contemporary interface focused on readability, responsiveness, and professional presentation.
 
