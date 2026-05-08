@@ -56,7 +56,10 @@ The portfolio interface is styled through three independent CSS themes: `modern.
 ![Example of rendered modern UI](/images/mod.png)
 *Rendered page with modern.css applied.*
 
-`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. 
+`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new css applied.
+
+![Example of rendered retro UI](/images/terminal.png)
+*Example of transition page rendering*
 
 `retro.css` the theme intentionally recreates a late-1990s GeoCities-era web aesthetic using bright colors, animated GIFs, CRT-inspired styling, and period-specific layout conventions.
 
