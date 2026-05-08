@@ -1,6 +1,6 @@
 /*
 wht_rbt_obj.js IS NOT AN OBJECT. It is is a cinematic transition from modern.ccs to retro.ccs that outputs on transition/index.html.
- Named after the notorious Jurassic Park bug "wht_rbt.obj" from Michael Chrichton's Jurassic Park.
+ Named after the notorious Jurassic Park bug "wht_rbt.obj" from Michael Crichton's Jurassic Park.
 
 Proudly Engineered by Zachary Roberts, inspired by Dennis Nedry 12 NOV 2025; version Bravo.
 "It's the kicker. wht_rbt.obj, whatever it is, it did it all." -Ray Arnold, Jurassic Park
