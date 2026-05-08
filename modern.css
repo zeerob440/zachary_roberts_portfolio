@@ -137,7 +137,6 @@ dl dd {
     max-width: 900px;
     margin-bottom: 1.25rem;
     padding-bottom: 5px;
-    width: 100%;
     margin-left: 0;
     margin-right: 0
     
@@ -146,7 +145,6 @@ dd p {
     color:#FFFFFF;
     font-weight: 100;
     font-family: "Trebuchet MS", sans-serif;
-    width: 100%;
     max-width: 900px;
 }
 dd a {
@@ -156,7 +154,6 @@ dd a {
     font-size: 1em;
     text-decoration: none;
     padding-top: 1.5em;
-    width: 100%
 }
 
 dd a:hover {
