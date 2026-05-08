@@ -30,18 +30,21 @@ retro styling depending on the user interaction. It also features a cinematic tr
 
 
 ## BEHAVIOR
-
-`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new css applied.
+My portfolio is designed to switch themes with user interaction.
 
 `modern.css` is designed to provide a polished contemporary interface focused on readability, responsiveness, and professional presentation.
 
+![Example of rendered modern.css UX](/images/mod.png)
+
+`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. `transition/index.html` runs for approximately three seconds before redirecting to `root/index.html` with the new css applied.
+
 ![Example of rendered terminal UX](/images/terminal.png)
-*Example of transition page rendering*
+*UX with terminal.css applied*
 
 `retro.css` the theme intentionally recreates a late-1990s GeoCities-era web aesthetic using bright colors, animated GIFs, CRT-inspired styling, and period-specific layout conventions.
 
 ![Example of rendered retro UX](/images/ret.png)
-*Rendered page with modern.css applied.*
+*UX with retro.css applied.*
 
 
 ## DATA DESIGN
