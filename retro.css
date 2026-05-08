@@ -189,6 +189,7 @@ button {
     font-family: "Lucida Console", monospace;
     font-size: 1.3em;
     margin-top: 24px;
+    width: 30%;
 }
 
 button:hover {
