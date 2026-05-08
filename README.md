@@ -27,7 +27,8 @@ retro styling depending on the user interaction. It also features a cinematic tr
 ## DESIGN DIAGRAMS
 
 ### UML Diagram
-My portfolio has one mission set: get recruiters to contact me with job offers via the submissions form.
+The portfolio is designed to encourage recruiter interaction through a streamlined contact workflow and dynamic UX.
+
 
 ![portfolio uml](/images/portfolio_uml.drawio.png)
 
