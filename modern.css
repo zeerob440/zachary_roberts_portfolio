@@ -201,7 +201,8 @@ form {
     gap: 40px;
     align-items: center;
     margin: 0 auto;
-    padding: 15px; 
+    padding: 15px;
+    width: 100%;  
 }
 form textarea {
     max-width: 400px;
