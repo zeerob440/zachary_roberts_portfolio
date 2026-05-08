@@ -29,7 +29,8 @@ retro styling depending on the user interaction. It also features a cinematic tr
 ### Usecase Diagram
 
 
-## Behavior 
+## Behavior
+
 
 
 
@@ -40,6 +41,17 @@ The contact form includes client-side validation and CAPTCHA verification to red
 
 
 # INTERFACE DESIGN
+## Interface Design
+
+The portfolio interface is styled through three independent CSS themes: `modern.css`, `retro.css` and `terminal.css`. CSS's can be dynamic swapped by the user by clicking the "Back to the Future" button.
+
+[modern.css UI example](/images/mod_intf.png)
+
+`modern.css` is designed to provide a polished contemporary interface focused on readability, responsiveness, and professional presentation.
+
+`terminal.css` is designed to style a transition page between `modern.css` and `retro.css`. It is is a homage to a popular 1990's movie; and cinematically informs the user that the a retro style is going to be applied. 
+
+`retro.css` the theme intentionally recreates a late-1990s GeoCities-era web aesthetic using bright colors, animated GIFs, CRT-inspired styling, and period-specific layout conventions.
  
 
 
