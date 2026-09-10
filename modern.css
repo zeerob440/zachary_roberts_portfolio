@@ -272,3 +272,9 @@ a:hover{
         2px 2px 0 #0a1128;
     font-weight: bold;
 }
+
+.modern_social_link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
