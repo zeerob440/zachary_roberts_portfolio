@@ -270,7 +270,12 @@ div {
     align-items: center;
 }
 
-.retro_social_link:hover {
+.retro_github_link:hover {
+    filter: brightness(2.0);
+    outline: 1px solid #FF006C;
+}
+
+.retro_linkedin_link:hover {
     filter: brightness(2.0);
     outline: 1px solid #FF006C;
 }
