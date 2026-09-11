@@ -290,7 +290,7 @@ a:hover{
     display: block;
 }
 
-.retro_linkedin_link {
+.modern_linkedin_link {
     background-image: url("images/mod_li_32px.png");
     background-size: 32px, 32px auto;
     background-repeat: no-repeat;
@@ -299,3 +299,10 @@ a:hover{
     display: block;
 }
     
+.modern_github_link:hover {
+    transform: scale(1.25);
+}
+
+.modern_github_link:hover {
+    transform: scale(1.25);
+}
