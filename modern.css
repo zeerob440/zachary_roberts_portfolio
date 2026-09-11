@@ -38,7 +38,8 @@ button {
     margin-top: 10px;
     border: none;
     border-radius: 10px;
-    font-family: "Trebuchet MS", sans-serif;    
+    font-family: "Trebuchet MS", sans-serif; 
+    margin-bottom: 10px;   
 }
 button:hover {
     background-color: lightgoldenrodyellow;
