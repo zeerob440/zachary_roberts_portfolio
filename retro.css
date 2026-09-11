@@ -273,6 +273,9 @@ div {
 .retro_github_link {
     background-image: url("images/retro_gh_32px.png");
     background-size: 32px, 32px auto;
-    background-repeat: no-repeat, 
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
 }
     
