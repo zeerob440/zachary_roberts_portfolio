@@ -270,6 +270,11 @@ div {
     align-items: center;
 }
 
+.retro_social_link:hover {
+    filter: brightness(2.0);
+    outline: 1px solid #FF006C;
+}
+
 .retro_github_link {
     background-image: url("images/retro_gh_32px.png");
     background-size: 32px, 32px auto;
