@@ -278,4 +278,13 @@ div {
     height: 32px;
     display: block;
 }
+ 
+.retro_linkedin_link {
+    background-image: url("images/retro_li_32px.png");
+    background-size: 32px, 32px auto;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
     
