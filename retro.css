@@ -192,6 +192,7 @@ button {
     font-size: 1.3em;
     margin-top: 24px;
     width: 40%;
+    margin-bottom: 24px;
 }
 
 button:hover {
